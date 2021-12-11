@@ -8,7 +8,7 @@ namespace AdventOfCode
 
     public static class Day8
     {
-        // what we know:
+        // what we know already:
         // 1 = 2 char
         // 4 = 4 char
         // 7 = 3 char
