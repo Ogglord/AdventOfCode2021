@@ -11,7 +11,7 @@ namespace AdventOfCode
     {
         static byte[,] heightmap;
 
-        public static A[,] ToRectArray<T, A>(this IList<T[]> arrays, Func<T, A> convertFunction)
+        static A[,] ToRectArray<T, A>(this IList<T[]> arrays, Func<T, A> convertFunction)
         {
             var result = new A[arrays.Count, arrays[0].Length];
             for (var i = 0; i < arrays.Count; i++)
