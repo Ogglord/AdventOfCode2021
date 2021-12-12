@@ -11,6 +11,7 @@
     <None Remove="data\day6_test.txt" />
     <None Remove="data\day6_test %28copy%29.txt" />
     <None Remove="data\day7.txt" />
+    <None Remove="data\day12_test2.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -64,6 +65,12 @@
     <None Update="data\day11.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="data\day12_test1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="data\day12.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\day4_test.txt">
@@ -76,6 +83,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="data\day7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\day12_test2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
