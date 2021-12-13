@@ -19,7 +19,8 @@ namespace AdventOfCode
             //Day9.Run();
             //Day10.Run();
             //Day11.Run();
-            Day12.Run();
+            //Day12.Run();
+            Day13b.OneAndTwo();
 
         }
 
