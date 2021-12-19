@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AdventOfCode
 {
-    class Program
+    static class Program
     {
         public static void Main()
         {
@@ -20,7 +20,7 @@ namespace AdventOfCode
             //Day10.Run();
             //Day11.Run();
             //Day12.Run();
-            Day13b.OneAndTwo();
+            Day14.Run();
 
         }
 

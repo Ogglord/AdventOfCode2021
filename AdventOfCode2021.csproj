@@ -77,6 +77,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\day14.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\day14_test.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\day4_test.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
